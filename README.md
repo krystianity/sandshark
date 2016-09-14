@@ -1,2 +1,7 @@
+![SandShark](sandshark.png?raw=true "Sandshark, CryptId-Creations 2014-2016")
+*Image by [Cryptid-Creations](http://cryptid-creations.deviantart.com/)*
+
 # sandshark
-expressjs drop in replacement with raw http performance
+- expressjs drop in replacement with raw http performance
+- work in progress!
+
