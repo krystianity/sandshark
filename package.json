@@ -1,0 +1,37 @@
+{
+  "name": "sandshark",
+  "version": "0.1.0",
+  "description": "express.js drop in replacement with raw http performance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./example/index.js",
+    "test": "istanbul cover _mocha -- -R spec test/int/* && istanbul check-coverage --statements 60",
+    "benchmark": "node ./perf/benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krystianity/sandshark.git"
+  },
+  "keywords": [
+    "sandshark",
+    "http",
+    "server",
+    "expressjs"
+  ],
+  "author": "Christian Fröhlingsdorf <chris@5cf.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krystianity/sandshark"
+  },
+  "homepage": "https://github.com/krystianity/sandshark",
+  "dependencies": {
+    "log4bro": "~1.6.5"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~1.18.2",
+    "metrics": "^0.1.9",
+    "istanbul": "~0.4.2",
+    "express": "~4.14.0"
+  }
+}
