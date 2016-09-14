@@ -1,6 +1,6 @@
-![SandShark](sandshark.png?raw=true "Sandshark, CryptId-Creations 2014-2016")
+<center><img src="sandshark.png?raw=true" height="245" /></center>
 *Image by [Cryptid-Creations](http://cryptid-creations.deviantart.com/)*
 
 # sandshark
-- expressjs drop in replacement with raw http performance
+- express.js drop in replacement with raw http performance
 - work in progress!
