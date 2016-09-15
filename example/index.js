@@ -6,7 +6,7 @@ app.use((err, req, res, next) => {
   next();
 });
 
-app.get((req, res, next) => {
+app.get("/bla", (req, res, next) => {
   res.status(201);
   res.write("bla bla bla");
   next();
