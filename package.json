@@ -1,12 +1,14 @@
 {
   "name": "sandshark",
-  "version": "0.3.0",
+  "version": "0.4.1",
   "description": "express.js drop in replacement with raw http performance",
   "main": "index.js",
   "scripts": {
     "start": "node ./example/index.js",
-    "test": "istanbul cover _mocha -- -R spec test/int/* && istanbul check-coverage --statements 50",
-    "benchmark": "node ./perf/benchmark.js"
+    "test": "istanbul cover _mocha -- -R spec test/int/* && istanbul check-coverage --statements 85",
+    "benchmark": "node ./benchmarks/benchmark.js",
+    "benchmarks": "node ./benchmarks/benchmark.js all",
+    "compare": "node ./benchmarks/benchmark.js compare"
   },
   "repository": {
     "type": "git",
@@ -27,12 +29,13 @@
   "dependencies": {},
   "devDependencies": {
     "expect.js": "~0.3.1",
+    "loadtest": "~2.0.2",
     "mocha": "~1.18.2",
-    "metrics": "^0.1.9",
     "istanbul": "~0.4.2",
     "express": "~4.14.0",
     "restify": "~4.1.1",
     "hapi": "~15.0.3",
-    "request": "~2.74.0"
+    "request": "~2.74.0",
+    "async": "~2.0.1"
   }
 }
